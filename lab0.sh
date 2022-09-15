@@ -114,10 +114,10 @@ grep -l 'in' $(ls -trR) | head -n 4
 
 #Удаление файлов и каталогов
 
-chmod u+w duosion8
+chmod 700 duosion8
 rm duosion8
 rm hitmonchan4/emboar
 rm magikarp8/banetteseedot
-chmod -R u+w hitmonchan4
+chmod -R 700 hitmonchan4
 rm -r hitmonchan4
 rm -r magikarp8/klinklang
