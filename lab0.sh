@@ -1,3 +1,5 @@
+sh clean.sh
+
 #создание корневого католога
 cd ~
 mkdir lab0
@@ -95,6 +97,8 @@ cat archeops6>>./magikarp8/walreinarcheops
 rm ./magikarp8/banetteseedot #Удаляем символическую ссылку для создаиня жесткой с аналогичным именем
 ln seedot0 ./magikarp8/banetteseedot
 
+ls -lR
+
 
 #Фильтрация файлов, каталогов и содержащихся в них данных
 
@@ -121,3 +125,6 @@ rm magikarp8/banetteseedot
 chmod -R 700 hitmonchan4
 rm -r hitmonchan4
 rm -r magikarp8/klinklang
+
+#Выводим конечное дерево каталогов
+ls -lR
