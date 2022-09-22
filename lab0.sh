@@ -93,7 +93,7 @@ cp seedot0 ./magikarp8/klinklang
 cat archeops6>>./magikarp8/walreinarcheops
 
 rm ./magikarp8/banetteseedot #Удаляем символическую ссылку для создаиня жесткой с аналогичным именем
-ln -P seedot0 ./magikarp8/banetteseedot
+ln seedot0 ./magikarp8/banetteseedot
 
 
 #Фильтрация файлов, каталогов и содержащихся в них данных
