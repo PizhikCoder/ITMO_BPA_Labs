@@ -97,7 +97,6 @@ cat archeops6>>./magikarp8/walreinarcheops
 rm ./magikarp8/banetteseedot #Удаляем символическую ссылку для создаиня жесткой с аналогичным именем
 ln seedot0 ./magikarp8/banetteseedot
 
-ls -lR
 
 
 #Фильтрация файлов, каталогов и содержащихся в них данных
