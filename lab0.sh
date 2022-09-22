@@ -108,7 +108,7 @@ touch tmp/errors
 
 cat hitmonchan4/poliwrath | sort -r && cat magikarp8/banette | sort -r
 
-grep -l 'in' $(ls -trR) | head -n 4
+grep -lR 'in' | head -n 4
 
 (cat archeops6 | grep -ni 'vo')2>/dev/null
 
